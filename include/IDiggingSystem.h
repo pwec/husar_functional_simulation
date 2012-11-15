@@ -1,3 +1,16 @@
+/// |------------------------------------------------------------------------------------------------|
+/// |                                                                                                |
+/// |               Class IDiggingSystem - describes the driving system of the Lunabot: it contains: |
+/// |           *Cylinder                                                                            |
+/// |           *Arm                                                                                 |
+/// -------------------------------------------------------------------------------------------------|
+/// |               The DiggingSystem can                                                            |
+/// |           *Dig the material                                                                    |
+/// |           *Drop the material to the lunabin                                                    |
+/// |                                                                                                |
+/// |------------------------------------------------------------------------------------------------|
+
+
 #ifndef IDIGGINGSYSTEM_H
 #define IDIGGINGSYSTEM_H
 

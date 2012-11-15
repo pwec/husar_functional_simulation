@@ -5,8 +5,8 @@
  void Cylinder::Vibrate(){
 
     ///move the cylinder back and forth
-    m_engine.Engine::SetPosition(GetPosition()+30.0);
-    m_engine.Engine::SetPosition(GetPosition()-60.0);
+    m_engine.Engine::SetPosition(m_engine.GetPosition()+30.0);
+    m_engine.Engine::SetPosition(m_engine.GetPosition()-60.0);
  }
 
  void Cylinder::GetMaterial(double weight){

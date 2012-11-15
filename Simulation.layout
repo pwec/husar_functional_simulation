@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="include\Arm.h" open="0" top="0" tabpos="8">
-		<Cursor position="264" topLine="0" />
+	<File name="include\Arm.h" open="1" top="0" tabpos="2">
+		<Cursor position="227" topLine="16" />
 	</File>
-	<File name="include\Cylinder.h" open="1" top="0" tabpos="4">
-		<Cursor position="1429" topLine="30" />
+	<File name="include\Cylinder.h" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="include\Engine.h" open="0" top="0" tabpos="1">
-		<Cursor position="265" topLine="31" />
+	<File name="include\Engine.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="include\IDiggingSystem.h" open="0" top="0" tabpos="5">
-		<Cursor position="257" topLine="0" />
+	<File name="include\IDiggingSystem.h" open="1" top="0" tabpos="9">
+		<Cursor position="0" topLine="10" />
 	</File>
-	<File name="include\IDrivingSystem.h" open="0" top="0" tabpos="6">
-		<Cursor position="228" topLine="0" />
+	<File name="include\IDrivingSystem.h" open="1" top="0" tabpos="6">
+		<Cursor position="1444" topLine="12" />
 	</File>
 	<File name="include\Position.h" open="0" top="0" tabpos="0">
 		<Cursor position="84" topLine="0" />
 	</File>
-	<File name="include\Robot.h" open="0" top="0" tabpos="7">
-		<Cursor position="121" topLine="0" />
+	<File name="include\Robot.h" open="1" top="1" tabpos="8">
+		<Cursor position="1447" topLine="45" />
 	</File>
 	<File name="include\Wheel.h" open="0" top="0" tabpos="2">
 		<Cursor position="189" topLine="0" />
 	</File>
-	<File name="src\Arm.cpp" open="1" top="0" tabpos="2">
+	<File name="src\Arm.cpp" open="1" top="0" tabpos="1">
 		<Cursor position="18" topLine="0" />
 	</File>
-	<File name="src\Cylinder.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="208" topLine="0" />
+	<File name="src\Cylinder.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="765" topLine="0" />
 	</File>
-	<File name="src\Engine.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="663" topLine="0" />
+	<File name="src\Engine.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="740" topLine="0" />
 	</File>
-	<File name="src\IDiggingSystem.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="31" topLine="0" />
+	<File name="src\IDiggingSystem.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="179" topLine="0" />
 	</File>
-	<File name="src\IDrivingSystem.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="29" topLine="0" />
+	<File name="src\IDrivingSystem.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="134" topLine="0" />
 	</File>
 	<File name="src\Position.cpp" open="0" top="0" tabpos="0">
 		<Cursor position="23" topLine="0" />
 	</File>
-	<File name="src\Robot.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="22" topLine="0" />
+	<File name="src\Robot.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="269" topLine="0" />
 	</File>
 	<File name="src\Wheel.cpp" open="0" top="0" tabpos="0">
 		<Cursor position="42" topLine="0" />

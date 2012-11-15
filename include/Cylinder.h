@@ -40,7 +40,7 @@ class Cylinder
         virtual ~Cylinder();
 
         double GetWeight() { return md_weight; }
-        bool IsCylinderFull() {if (md_weight==WEIGHT) return true; else return false;};
+        bool IsCylinderFull() {if (md_weight==md_maxweight) return true; else return false;};
 
         ///Returns true if the flaps are open
         bool IsFlapOn() { return mb_flap; }
@@ -60,10 +60,10 @@ class Cylinder
         void Vibrate(); //move cylinder cw and ccw for 0.5 s
 
         ///Starts digging until reaches the weight of the material - implicitly until full
-        void GetMaterial(double weight);
+        void GetMaterial(double weight=WEIGHT);
 
         ///unloads the material
-        void Unload(double weight);
+        void Unload(double weight=WEIGHT);
 
 
 
