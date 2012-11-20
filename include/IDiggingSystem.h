@@ -27,7 +27,6 @@ class IDiggingSystem
 
 
     protected:
-    private:
         Cylinder m_cylinder;
         Arm m_arm;
 };

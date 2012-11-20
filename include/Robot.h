@@ -51,23 +51,24 @@ class Robot : public IDiggingSystem, public IDrivingSystem
         ///Go to lunabin to unload the content of the cylinder
         void GoToLunabin();
 
+        ///change the current position because of new conditions etc.
+        void ChangePosition(double* newPosition);
+
+
+        //gives the current position
+        double* GivePosition(){return md_position;}
 
         void Obstacle(){
             bool a=true;
             if(rand()%30)
                 throw a;
         }
+
         ///Seeing an obstacle - avoid it
-        void AvoidObstacle(); //if success- true
+        void AvoidObstacle();
 
-        ///Sets the posision of the robot
-         //not sure if ok
-
-        ///Return the present position
-        double* findPosition(){return md_position;} //for navigation
 
     private:
-        ///
         double* md_position; //x, y, a
 
 
