@@ -18,8 +18,9 @@
 
 #ifndef ENGINE_H
 #define ENGINE_H
+#include <unistd.h>
 
-#define WINDOWS
+///#define WINDOWS
 
 #ifdef WINDOWS
 #include <windows.h>
@@ -27,7 +28,7 @@
 #endif
 
 #ifndef WINDOWS
-#define SLEEP(time) uSleep(1000*time)
+#define SLEEP(time) sleep(time)
 #endif
 
 

@@ -27,10 +27,10 @@ class Arm
 {
     public:
         Arm(POSITION pos = a) : m_position(), m_engine(Engine()) {} ;
-        virtual ~Arm();
+        virtual ~Arm(){}
 
         POSITION GetPosition() { return m_position; }
-        void SetPosition(POSITION val=a) { m_position = val; }
+        void SetPosition(POSITION val=a);
 
     protected:
     private:

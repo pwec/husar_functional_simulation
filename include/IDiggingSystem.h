@@ -22,8 +22,8 @@ class IDiggingSystem
     public:
         IDiggingSystem();
         virtual ~IDiggingSystem();
-        virtual void Dig()=0;
-        virtual void Drop()=0;
+        virtual void Dig();
+        virtual void Drop();
 
 
     protected:

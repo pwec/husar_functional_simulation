@@ -22,41 +22,25 @@
 #include <cstdlib>
 
 
-#include "Position.h"
-
-
 class Robot : public IDiggingSystem, public IDrivingSystem
 {
     public:
         ///Constructor: Robot ready to go in a position of (x,y,a)
-        Robot(){
-                md_position = new double [3];
-                md_position[0]=md_position[1]=md_position[2]=0.0;
-                }
+        Robot(double x, double y, double a);
 
-        virtual ~Robot();
 
-        ///Go forward with velocity v, for time t. Implicitly t=timing
-        void Go(double v=0, double t=T);
+        void SetPosition(double da, double ds); //
+        void SetPosition(double* p);
+        void Drive(double v=0, double t=T); //
+        void Turn(double angle=0, double t=T); //
+        void GoForward(double s=0); //
 
-        ///Turn to an angle a, implicitly a=0
-        void Turn(double a=0);
 
-        ///Go forward to reach the distance s, implicitly s=0
-        void GoForward(double s=0); //drive forward to a distance s
+        virtual ~Robot(){}
 
-        ///Go to mining spot, avoiding obstacles - high-level function
         void GoToMineSpot();
-
         ///Go to lunabin to unload the content of the cylinder
         void GoToLunabin();
-
-        ///change the current position because of new conditions etc.
-        void ChangePosition(double* newPosition);
-
-
-        //gives the current position
-        double* GivePosition(){return md_position;}
 
         void Obstacle(){
             bool a=true;
@@ -67,9 +51,6 @@ class Robot : public IDiggingSystem, public IDrivingSystem
         ///Seeing an obstacle - avoid it
         void AvoidObstacle();
 
-
-    private:
-        double* md_position; //x, y, a
 
 
 

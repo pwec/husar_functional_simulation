@@ -37,7 +37,7 @@ class Cylinder
 {
     public:
         Cylinder(double weight=0.0, double weightatonce=WEIGHTATONCE, double maxweight=WEIGHT, bool flap=false, bool electro=false) : md_weight(weight), md_weightatonce(weightatonce), md_maxweight(maxweight), mb_flap(flap), mb_electromagnet(electro) {};
-        virtual ~Cylinder();
+        virtual ~Cylinder(){}
 
         double GetWeight() { return md_weight; }
         bool IsCylinderFull() {if (md_weight==md_maxweight) return true; else return false;};
@@ -75,7 +75,7 @@ class Cylinder
 
         bool mb_flap;
         bool mb_electromagnet;
-        Engine::Engine m_engine;
+        Engine m_engine;
 
 };
 

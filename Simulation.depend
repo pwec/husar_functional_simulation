@@ -2,8 +2,12 @@
 1353008582 source:c:\users\justyna\documents\simulation\src\cylinder.cpp
 	"Cylinder.h"
 
+1352414200 h"
+
 1353009101 c:\users\justyna\documents\simulation\include\cylinder.h
 	"Engine.h"
+
+1352747617 
 
 1352842462 c:\users\justyna\documents\simulation\include\engine.h
 	<windows.h>
@@ -16,6 +20,8 @@
 
 1353009153 source:c:\users\justyna\documents\simulation\src\idiggingsystem.cpp
 	"IDiggingSystem.h"
+
+1353361243 ystem.h"
 
 1353360701 c:\users\justyna\documents\simulation\include\idiggingsystem.h
 	"Cylinder.h"
@@ -55,4 +61,65 @@
 	"Position.h"
 
 1352745765 c:\users\justyna\documents\simulation\include\position.h
+
+1354469528 source:/home/justyna/Simulation/main.cpp
+	<iostream>
+	"Robot.h"
+
+1352842545 source:/home/justyna/Simulation/src/Engine.cpp
+	"Engine.h"
+
+1354463293 /home/justyna/Simulation/include/Engine.h
+	<unistd.h>
+	<windows.h>
+	<climits>
+	<iostream>
+	<cmath>
+
+1352414200 source:/home/justyna/Simulation/src/Position.cpp
+	"Position.h"
+
+1352745765 /home/justyna/Simulation/include/Position.h
+
+1354469411 source:/home/justyna/Simulation/src/Robot.cpp
+	"Robot.h"
+	"IDrivingSystem.h"
+	<cmath>
+
+1354468320 /home/justyna/Simulation/include/Robot.h
+	<IDiggingSystem.h>
+	<IDrivingSystem.h>
+	<cstdlib>
+
+1354468590 /home/justyna/Simulation/include/IDiggingSystem.h
+	"Cylinder.h"
+	"Arm.h"
+
+1354466603 /home/justyna/Simulation/include/Cylinder.h
+	"Engine.h"
+
+1354466604 /home/justyna/Simulation/include/Arm.h
+	"Engine.h"
+
+1354469676 /home/justyna/Simulation/include/IDrivingSystem.h
+	"Wheel.h"
+
+1354466622 /home/justyna/Simulation/include/Wheel.h
+	"Engine.h"
+
+1354466667 source:/home/justyna/Simulation/src/Wheel.cpp
+	"Wheel.h"
+
+1354468496 source:/home/justyna/Simulation/src/Arm.cpp
+	"Arm.h"
+
+1354467636 source:/home/justyna/Simulation/src/Cylinder.cpp
+	"Cylinder.h"
+
+1354468738 source:/home/justyna/Simulation/src/IDiggingSystem.cpp
+	"IDiggingSystem.h"
+
+1354468977 source:/home/justyna/Simulation/src/IDrivingSystem.cpp
+	"IDrivingSystem.h"
+	<cmath>
 

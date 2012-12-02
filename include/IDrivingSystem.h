@@ -27,15 +27,18 @@ class IDrivingSystem
 {
     public:
         IDrivingSystem();
-        virtual ~IDrivingSystem()=0;
-        virtual void Drive(double v=0, double t=T);
-        virtual void Turn(double angle=0, double t=T)=0;
-        virtual void GoForward(double s=0)=0;
+        virtual ~IDrivingSystem();
+        virtual void Drive(double v=0, double t=T); //
+        virtual void Turn(double angle=0, double t=T); //
+        virtual void GoForward(double s=0); //
 
-        virtual void SetLinearVelociry()=0;
-        virtual void SetAngularVelocity()=0;
-        virtual void SetAngularVelocity(double w)=0;
+        virtual void SetLinearVelocity(double v){IDrivingSystem::md_linearVelocity=v;}
+        virtual void SetAngularVelocity(double w){IDrivingSystem::md_angularVelocity=w;};
 
+        virtual void SetPosition(double da, double ds)=0; //
+        virtual void SetPosition(double* p)=0; //
+
+        double* GetPosition(){return md_position;}
         double GetLinearVelocity(){return md_linearVelocity;}
         double GetAngularVelocity(){return md_angularVelocity;}
         double GetWheelTrack(){return md_wheelTrack;}
@@ -46,6 +49,7 @@ class IDrivingSystem
         double md_linearVelocity;
         double md_angularVelocity;
         double md_wheelTrack;
+        double* md_position;
 };
 
 #endif // IDRIVINGSYSTEM_H
